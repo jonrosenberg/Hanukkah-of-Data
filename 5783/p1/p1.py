@@ -33,7 +33,7 @@ def encode(name):
 
 def main():
     
-    df = pd.read_csv("data/noahs-customers.csv")
+    df = pd.read_csv("5783/data/noahs-customers.csv")
     
     numbers = [x[0:3]+x[4:7]+x[8:12] for x in df["phone"].to_list()]
     
